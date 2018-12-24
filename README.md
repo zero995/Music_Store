@@ -28,6 +28,12 @@ at the end you can put your smtp configurations by defuault is configurated for 
 
 
 for make a scheduled task for low stock
+
+
+add this line at the end of 
+
+crontab -e
+
 0 0 0,6 ? * MON * [path of installation]/venv/bin/python [path of installation]/manage.py refill_warn
 
 
