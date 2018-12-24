@@ -1,0 +1,119 @@
+[
+  {
+    "model": "music.artist",
+    "pk": 1,
+    "fields": {
+      "name": "Linkin Park"
+    }
+  },
+  {
+    "model": "music.artist",
+    "pk": 2,
+    "fields": {
+      "name": "Metallica"
+    }
+  },
+  {
+    "model": "music.artist",
+    "pk": 3,
+    "fields": {
+      "name": "ACDC"
+    }
+  },
+  {
+    "model": "music.disc",
+    "pk": 1,
+    "fields": {
+      "name": "Hybrid Theory",
+      "year": 2000,
+      "price": 100,
+      "qty": 25,
+      "artist": 1,
+      "genere": 1,
+      "subgeneres": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "music.disc",
+    "pk": 2,
+    "fields": {
+      "name": "Meteora",
+      "year": 2002,
+      "price": 100,
+      "qty": 70,
+      "artist": 1,
+      "genere": 1,
+      "subgeneres": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "music.disc",
+    "pk": 3,
+    "fields": {
+      "name": "Kill 'Em All",
+      "year": 1983,
+      "price": 178,
+      "qty": 300,
+      "artist": 2,
+      "genere": 1,
+      "subgeneres": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "model": "music.disc",
+    "pk": 4,
+    "fields": {
+      "name": "High Voltage",
+      "year": 1975,
+      "price": 300,
+      "qty": 50,
+      "artist": 3,
+      "genere": 1,
+      "subgeneres": []
+    }
+  },
+  {
+    "model": "music.genere",
+    "pk": 1,
+    "fields": {
+      "name": "Rock"
+    }
+  },
+  {
+    "model": "music.genere",
+    "pk": 2,
+    "fields": {
+      "name": "Trash"
+    }
+  },
+  {
+    "model": "music.genere",
+    "pk": 3,
+    "fields": {
+      "name": "Metal"
+    }
+  },
+  {
+    "model": "music.genere",
+    "pk": 4,
+    "fields": {
+      "name": "Alternative"
+    }
+  },
+  {
+    "model": "music.user",
+    "pk": 1,
+    "fields": {
+      "name": "test_user",
+      "apikey": "Y1Dev6MEJNmCxJMtzZLBAFDhZn0GrPM9ZIkqNGSqzfxOob2-597XML2Sm7pB8UinV3NaUCFHPjd6OwmbuN35Xw",
+      "email": "test@gmail.com"
+    }
+  }
+]
