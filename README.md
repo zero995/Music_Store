@@ -9,17 +9,24 @@ run this commands for start
 git clone https://github.com/zero995/Music_Store.git
 
 cd Music_Store
+
 python3 -m venv venv
+
 . venv/bin/activate
+
 pip install -r reqs.txt
 
+
 python manage.py makemigrations
+
 python migrate
 
-create a super user fo django
+create a super user for django
+
 python manage.py createsuperuser
 
 test app
+
 python manage.py test
 
 for email configuration you need edit
